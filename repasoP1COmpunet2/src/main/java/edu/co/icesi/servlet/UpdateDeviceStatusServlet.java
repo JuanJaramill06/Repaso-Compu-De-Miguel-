@@ -1,7 +1,7 @@
 package edu.co.icesi.servlet;
 
 
-import edu.co.icesi.service.DeviceService;
+import edu.co.icesi.service.IDeviceService;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -14,13 +14,13 @@ import java.io.IOException;
 @WebServlet("/update")
 public class UpdateDeviceStatusServlet extends HttpServlet {
 
-    private DeviceService deviceService;
+    private IDeviceService deviceService;
 
     @Override
     public void init() {
         deviceService = edu.co.icesi.context.AppContext
                 .getContext()
-                .getBean(DeviceService.class);
+                .getBean(IDeviceService.class);
     }
 
     @Override

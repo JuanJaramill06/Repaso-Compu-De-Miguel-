@@ -6,10 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class MeasurementRepository {
+public class MeasurementRepository implements IMeasurementRepository {
     private final List<Measurement> measurements = new ArrayList<>();
     private final AtomicInteger idGenerator = new AtomicInteger(1);
 
+    @Override
     public Measurement save(Measurement measurement) {
         if (measurement.getId() == null) {
             measurement.setId(idGenerator.getAndIncrement());
@@ -19,16 +20,19 @@ public class MeasurementRepository {
         return measurement;
     }
 
+    @Override
     public List<Measurement> findByDeviceId(Integer assetId) {
         return measurements.stream()
                 .filter(m -> m.getAssetId().equals(assetId))
                 .toList();
     }
 
+    @Override
     public boolean existsByDeviceId(Integer assetId) {
         return measurements.stream().anyMatch(m -> m.getAssetId().equals(assetId));
     }
 
+    @Override
     public List<Measurement> findAll() {
         return new ArrayList<>(measurements);
     }

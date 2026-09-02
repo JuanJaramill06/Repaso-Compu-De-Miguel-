@@ -5,13 +5,13 @@ import edu.co.icesi.model.Device;
 import jakarta.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class DeviceRepository {
+public class DeviceRepository implements IDeviceRepository {
     private final List<Device> devices = new ArrayList<>();
     private final AtomicInteger idGenerator = new AtomicInteger(1);
 
+    @Override
     public Device save(Device device) {
         if (device.getId() == null) {
             device.setId(idGenerator.getAndIncrement());
@@ -22,22 +22,28 @@ public class DeviceRepository {
         return device;
     }
 
-    public Optional<Device> findBySerialNumber(String serialNumber) {
+    @Override
+    public Device findBySerialNumber(String serialNumber) {
         return devices.stream()
                 .filter(d -> d.getSerialNumber().equals(serialNumber))
-                .findFirst();
+                .findFirst()
+                .orElse(null);
     }
 
-    public Optional<Device> findById(Integer id) {
+    @Override
+    public Device findById(Integer id) {
         return devices.stream()
                 .filter(d -> d.getId().equals(id))
-                .findFirst();
+                .findFirst()
+                .orElse(null);
     }
 
+    @Override
     public List<Device> findAll() {
         return new ArrayList<>(devices);
     }
 
+    @Override
     public boolean delete(Integer id) {
         return devices.removeIf(d -> d.getId().equals(id));
     }
