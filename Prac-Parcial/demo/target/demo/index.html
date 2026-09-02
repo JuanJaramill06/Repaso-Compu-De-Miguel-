@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Estudiantes y Cursos</title>
+</head>
+<body>
+    <h1>Gestión de Estudiantes y Cursos</h1>
+
+    <h2>Registrar curso</h2>
+    <form action="courses" method="POST">
+        <input name="id" type="number" placeholder="Id del curso">
+        <input name="name" type="text" placeholder="Nombre del curso">
+        <input name="professorName" type="text" placeholder="Profesor">
+        <input name="schedule" type="text" placeholder="Horario">
+        <button>Enviar</button>
+    </form>
+
+    <h2>Buscar curso por id</h2>
+    <form action="courses" method="GET">
+        <input name="id" type="number" placeholder="Id del curso">
+        <button>Buscar</button>
+    </form>
+
+    <h2>Eliminar curso</h2>
+    <form action="courses" method="POST">
+        <input name="_method" type="hidden" value="DELETE">
+        <input name="id" type="number" placeholder="Id del curso">
+        <button>Eliminar</button>
+    </form>
+
+    <h2>Actualizar curso</h2>
+    <form action="courses" method="POST">
+        <input name="_method" type="hidden" value="PUT">
+        <input name="id" type="number" placeholder="Id del curso">
+        <input name="name" type="text" placeholder="Nombre del curso">
+        <input name="professorName" type="text" placeholder="Profesor">
+        <input name="schedule" type="text" placeholder="Horario">
+        <button>Actualizar</button>
+    </form>
+
+    <h2>Registrar estudiante</h2>
+    <form action="students" method="POST">
+        <input name="id" type="number" placeholder="Id del estudiante">
+        <input name="code" type="text" placeholder="Código (A00123456)">
+        <input name="name" type="text" placeholder="Nombre del estudiante">
+        <input name="program" type="text" placeholder="Programa">
+        <input name="courseId" type="number" placeholder="Id del curso">
+        <button>Enviar</button>
+    </form>
+
+    <h2>Buscar estudiante por id</h2>
+    <form action="students" method="GET">
+        <input name="id" type="number" placeholder="Id del estudiante">
+        <button>Buscar</button>
+    </form>
+
+    <h2>Eliminar estudiante</h2>
+    <form action="students" method="POST">
+        <input name="_method" type="hidden" value="DELETE">
+        <input name="id" type="number" placeholder="Id del estudiante">
+        <button>Eliminar</button>
+    </form>
+
+    <h2>Actualizar estudiante</h2>
+    <form action="students" method="POST">
+        <input name="_method" type="hidden" value="PUT">
+        <input name="id" type="number" placeholder="Id del estudiante">
+        <input name="code" type="text" placeholder="Código (A00123456)">
+        <input name="name" type="text" placeholder="Nombre del estudiante">
+        <input name="program" type="text" placeholder="Programa">
+        <input name="courseId" type="number" placeholder="Id del curso">
+        <button>Actualizar</button>
+    </form>
+
+</body>
+</html>

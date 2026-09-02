@@ -1,0 +1,14 @@
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/Application.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/repository/StudentRepositoryImpl.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/repository/CourseRepositoryImpl.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/model/Course.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/repository/IStudentRepository.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/ServletStudents.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/service/StudentServiceImpl.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/ServletCourses.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/service/CourseServiceImpl.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/repository/ICourseRepository.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/model/Student.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/config/AppConfig.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/service/IStudentService.java
+/Users/julinigal/Documents/Repositorios/Prac-Parcial/demo/src/main/java/com/example/service/ICourseService.java
