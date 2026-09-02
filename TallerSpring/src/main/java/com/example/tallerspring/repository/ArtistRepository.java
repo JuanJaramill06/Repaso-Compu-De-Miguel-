@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @Component
-public class ArtistRepository {
+public class ArtistRepository implements IArtistRepository {
 
     private Map<Long, Artist> artists = new HashMap<>();
     private long currentId;
@@ -21,18 +21,22 @@ public class ArtistRepository {
 
     }
 
+    @Override
     public List<Artist> findAll() {
         return new ArrayList<>(artists.values());
     }
 
+    @Override
     public Artist findById(long id) {
         return artists.get(id);
     }
 
+    @Override
     public Artist findByName(String name) {
         return artists.values().stream().filter(a -> a.getName().equals(name)).findFirst().orElse(null);
     }
 
+    @Override
     public Artist save(Artist artist) {
         currentId++;
         artist.setId(currentId);
@@ -40,6 +44,7 @@ public class ArtistRepository {
         return artist;
     }
 
+    @Override
     public void deleteById(long id) {
         artists.remove(id);
     }

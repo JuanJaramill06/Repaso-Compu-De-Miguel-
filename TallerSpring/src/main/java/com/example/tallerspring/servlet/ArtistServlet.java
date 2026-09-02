@@ -1,7 +1,7 @@
 package com.example.tallerspring.servlet;
 
 import com.example.tallerspring.model.Artist;
-import com.example.tallerspring.service.ArtistService;
+import com.example.tallerspring.service.IArtistService;
 import com.example.tallerspring.views.ArtistView;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -15,14 +15,14 @@ import java.util.List;
 @WebServlet("/artist")
 public class ArtistServlet extends HttpServlet {
 
-    private ArtistService service;
+    private IArtistService service;
     private ArtistView view;
 
     @Override
     public void init() throws ServletException {
         ApplicationContext context = WebApplicationContextUtils.getRequiredWebApplicationContext(getServletContext());
 
-        service = context.getBean(ArtistService.class);
+        service = context.getBean(IArtistService.class);
         view = new ArtistView();
     }
 

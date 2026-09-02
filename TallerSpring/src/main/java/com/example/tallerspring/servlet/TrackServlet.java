@@ -1,8 +1,8 @@
 package com.example.tallerspring.servlet;
 
 import com.example.tallerspring.model.Track;
-import com.example.tallerspring.service.ArtistService;
-import com.example.tallerspring.service.TrackService;
+import com.example.tallerspring.service.IArtistService;
+import com.example.tallerspring.service.ITrackService;
 import com.example.tallerspring.views.TrackView;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -17,16 +17,16 @@ import java.util.stream.Collectors;
 @WebServlet("/track")
 public class TrackServlet extends HttpServlet {
 
-    private TrackService service;
-    private ArtistService artistService;
+    private ITrackService service;
+    private IArtistService artistService;
     private TrackView view;
 
     @Override
     public void init() throws ServletException {
         ApplicationContext context = WebApplicationContextUtils.getRequiredWebApplicationContext(getServletContext());
 
-        service = context.getBean(TrackService.class);
-        artistService = context.getBean(ArtistService.class);
+        service = context.getBean(ITrackService.class);
+        artistService = context.getBean(IArtistService.class);
         view = new TrackView();
     }
 
