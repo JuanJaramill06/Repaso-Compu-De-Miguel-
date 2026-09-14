@@ -1,0 +1,225 @@
+2026-09-10T08:28:44.843-05:00  INFO 4576 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Starting SpringbootApplication using Java 17.0.2 with PID 4576 (C:\Users\juanf\OneDrive\Desktop\taller\target\classes started by juanf in C:\Users\juanf\OneDrive\Desktop\taller)
+2026-09-10T08:28:44.873-05:00  INFO 4576 --- [taller] [main] c.comunet.taller.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-09-10T08:28:47.558-05:00  INFO 4576 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-10T08:28:47.688-05:00  INFO 4576 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 0 JPA repository interfaces.
+2026-09-10T08:28:49.978-05:00  INFO 4576 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-10T08:28:50.065-05:00  INFO 4576 --- [taller] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-10T08:28:50.067-05:00  INFO 4576 --- [taller] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-10T08:28:50.302-05:00  INFO 4576 --- [taller] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5125 ms
+2026-09-10T08:28:51.000-05:00  INFO 4576 --- [taller] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-10T08:28:51.270-05:00  INFO 4576 --- [taller] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-09-10T08:28:54.315-05:00  INFO 4576 --- [taller] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-10T08:28:54.498-05:00  INFO 4576 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-10T08:28:55.881-05:00  INFO 4576 --- [taller] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:sistema-academico user=USER
+2026-09-10T08:28:55.905-05:00  INFO 4576 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-10T08:28:56.218-05:00  WARN 4576 --- [taller] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-10T08:28:56.409-05:00  INFO 4576 --- [taller] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:sistema-academico]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SISTEMA-ACADEMICO/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-10T08:28:58.150-05:00  INFO 4576 --- [taller] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-10T08:28:58.178-05:00  INFO 4576 --- [taller] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-10T08:28:58.350-05:00  WARN 4576 --- [taller] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-10T08:29:00.584-05:00  INFO 4576 --- [taller] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sistema-academico'
+2026-09-10T08:29:00.946-05:00  INFO 4576 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/springboot-api'
+2026-09-10T08:29:00.983-05:00  INFO 4576 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Started SpringbootApplication in 17.961 seconds (process running for 19.311)
+2026-09-10T08:36:19.171-05:00  INFO 4576 --- [taller] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10T08:36:19.736-05:00  INFO 4576 --- [taller] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-10T08:36:19.743-05:00  INFO 4576 --- [taller] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-10T08:36:19.748-05:00  INFO 4576 --- [taller] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-10T08:36:19.754-05:00  INFO 4576 --- [taller] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-09-10T08:42:02.712-05:00  INFO 16340 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Starting SpringbootApplication using Java 17.0.2 with PID 16340 (C:\Users\juanf\OneDrive\Desktop\taller\target\classes started by juanf in C:\Users\juanf\OneDrive\Desktop\taller)
+2026-09-10T08:42:02.719-05:00  INFO 16340 --- [taller] [main] c.comunet.taller.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-09-10T08:42:03.594-05:00  INFO 16340 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-10T08:42:03.695-05:00  INFO 16340 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 4 JPA repository interfaces.
+2026-09-10T08:42:04.484-05:00  INFO 16340 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-10T08:42:04.515-05:00  INFO 16340 --- [taller] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-10T08:42:04.516-05:00  INFO 16340 --- [taller] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-10T08:42:04.666-05:00  INFO 16340 --- [taller] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1862 ms
+2026-09-10T08:42:04.935-05:00  INFO 16340 --- [taller] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-10T08:42:05.054-05:00  INFO 16340 --- [taller] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-09-10T08:42:05.895-05:00  INFO 16340 --- [taller] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-10T08:42:05.967-05:00  INFO 16340 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-10T08:42:06.329-05:00  INFO 16340 --- [taller] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:sistema-academico user=USER
+2026-09-10T08:42:06.332-05:00  INFO 16340 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-10T08:42:06.386-05:00  WARN 16340 --- [taller] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-10T08:42:06.429-05:00  INFO 16340 --- [taller] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:sistema-academico]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SISTEMA-ACADEMICO/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-10T08:42:06.760-05:00 ERROR 16340 --- [taller] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.comunet.taller.model.Rol.rolPermisos' is 'mappedBy' a property named 'roles' which does not exist in the target entity 'com.comunet.taller.model.RolPermiso'
+2026-09-10T08:42:06.762-05:00  WARN 16340 --- [taller] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Collection 'com.comunet.taller.model.Rol.rolPermisos' is 'mappedBy' a property named 'roles' which does not exist in the target entity 'com.comunet.taller.model.RolPermiso'
+2026-09-10T08:42:06.763-05:00  INFO 16340 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-10T08:42:06.766-05:00  INFO 16340 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-09-10T08:42:06.770-05:00  INFO 16340 --- [taller] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-10T08:42:06.784-05:00  INFO 16340 --- [taller] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-10T08:42:06.809-05:00 ERROR 16340 --- [taller] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Collection 'com.comunet.taller.model.Rol.rolPermisos' is 'mappedBy' a property named 'roles' which does not exist in the target entity 'com.comunet.taller.model.RolPermiso'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.8.jar:4.0.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.8.jar:4.0.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.8.jar:4.0.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.8.jar:4.0.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.8.jar:4.0.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.8.jar:4.0.8]
+	at com.comunet.taller.SpringbootApplication.main(SpringbootApplication.java:10) ~[classes/:na]
+Caused by: org.hibernate.AnnotationException: Collection 'com.comunet.taller.model.Rol.rolPermisos' is 'mappedBy' a property named 'roles' which does not exist in the target entity 'com.comunet.taller.model.RolPermiso'
+	at org.hibernate.boot.model.internal.CollectionBinder.getMappedByProperty(CollectionBinder.java:1523) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1506) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1531) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1489) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1480) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:39) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1771) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1737) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.coordinateProcessors(MetadataBuildingProcess.java:357) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:201) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454) ~[hibernate-core-7.2.24.Final.jar:7.2.24.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93) ~[spring-orm-7.0.9.jar:7.0.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443) ~[spring-orm-7.0.9.jar:7.0.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436) ~[spring-orm-7.0.9.jar:7.0.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411) ~[spring-orm-7.0.9.jar:7.0.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419) ~[spring-orm-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 15 common frames omitted
+
+2026-09-10T08:43:11.580-05:00  INFO 3856 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Starting SpringbootApplication using Java 17.0.2 with PID 3856 (C:\Users\juanf\OneDrive\Desktop\taller\target\classes started by juanf in C:\Users\juanf\OneDrive\Desktop\taller)
+2026-09-10T08:43:11.585-05:00  INFO 3856 --- [taller] [main] c.comunet.taller.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-09-10T08:43:12.395-05:00  INFO 3856 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-10T08:43:12.493-05:00  INFO 3856 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 4 JPA repository interfaces.
+2026-09-10T08:43:13.207-05:00  INFO 3856 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-10T08:43:13.231-05:00  INFO 3856 --- [taller] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-10T08:43:13.232-05:00  INFO 3856 --- [taller] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-10T08:43:13.324-05:00  INFO 3856 --- [taller] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1680 ms
+2026-09-10T08:43:13.557-05:00  INFO 3856 --- [taller] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-10T08:43:13.630-05:00  INFO 3856 --- [taller] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-09-10T08:43:14.236-05:00  INFO 3856 --- [taller] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-10T08:43:14.284-05:00  INFO 3856 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-10T08:43:14.575-05:00  INFO 3856 --- [taller] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:sistema-academico user=USER
+2026-09-10T08:43:14.579-05:00  INFO 3856 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-10T08:43:14.611-05:00  WARN 3856 --- [taller] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-10T08:43:14.648-05:00  INFO 3856 --- [taller] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:sistema-academico]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SISTEMA-ACADEMICO/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-10T08:43:16.163-05:00  INFO 3856 --- [taller] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-10T08:43:16.267-05:00  INFO 3856 --- [taller] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-10T08:43:16.397-05:00  INFO 3856 --- [taller] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-10T08:43:16.624-05:00  WARN 3856 --- [taller] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-10T08:43:16.997-05:00  INFO 3856 --- [taller] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sistema-academico'
+2026-09-10T08:43:17.092-05:00  INFO 3856 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/springboot-api'
+2026-09-10T08:43:17.101-05:00  INFO 3856 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Started SpringbootApplication in 6.149 seconds (process running for 6.652)
+2026-09-10T08:44:42.501-05:00  INFO 3856 --- [taller] [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/springboot-api]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10T08:44:42.501-05:00  INFO 3856 --- [taller] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-10T08:44:42.504-05:00  INFO 3856 --- [taller] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-09-10T08:48:26.005-05:00  INFO 13144 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Starting SpringbootApplication using Java 17.0.2 with PID 13144 (C:\Users\juanf\OneDrive\Desktop\taller\target\classes started by juanf in C:\Users\juanf\OneDrive\Desktop\taller)
+2026-09-10T08:48:26.010-05:00  INFO 13144 --- [taller] [main] c.comunet.taller.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-09-10T08:48:27.230-05:00  INFO 13144 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-10T08:48:27.357-05:00  INFO 13144 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 4 JPA repository interfaces.
+2026-09-10T08:48:28.305-05:00  INFO 13144 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-10T08:48:28.341-05:00  INFO 13144 --- [taller] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-10T08:48:28.341-05:00  INFO 13144 --- [taller] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-10T08:48:28.567-05:00  INFO 13144 --- [taller] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2466 ms
+2026-09-10T08:48:29.009-05:00  INFO 13144 --- [taller] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-10T08:48:29.165-05:00  INFO 13144 --- [taller] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-09-10T08:48:30.821-05:00  INFO 13144 --- [taller] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-10T08:48:30.932-05:00  INFO 13144 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-10T08:48:31.641-05:00  INFO 13144 --- [taller] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:sistema-academico user=USER
+2026-09-10T08:48:31.662-05:00  INFO 13144 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-10T08:48:31.769-05:00  WARN 13144 --- [taller] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-10T08:48:31.844-05:00  INFO 13144 --- [taller] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:sistema-academico]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SISTEMA-ACADEMICO/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-10T08:48:35.202-05:00  INFO 13144 --- [taller] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-10T08:48:35.334-05:00  INFO 13144 --- [taller] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-10T08:48:35.484-05:00  INFO 13144 --- [taller] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-10T08:48:35.775-05:00  WARN 13144 --- [taller] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-10T08:48:36.400-05:00  INFO 13144 --- [taller] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sistema-academico'
+2026-09-10T08:48:36.521-05:00  INFO 13144 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/springboot-api'
+2026-09-10T08:48:36.532-05:00  INFO 13144 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Started SpringbootApplication in 11.397 seconds (process running for 12.106)
+2026-09-10T08:50:26.182-05:00  INFO 13144 --- [taller] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10T08:50:26.673-05:00  INFO 13144 --- [taller] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-10T08:50:26.678-05:00  INFO 13144 --- [taller] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-10T08:50:26.693-05:00  INFO 13144 --- [taller] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-10T08:50:26.696-05:00  INFO 13144 --- [taller] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-09-10T08:51:12.375-05:00  INFO 5720 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Starting SpringbootApplication using Java 17.0.2 with PID 5720 (C:\Users\juanf\OneDrive\Desktop\taller\target\classes started by juanf in C:\Users\juanf\OneDrive\Desktop\taller)
+2026-09-10T08:51:12.381-05:00  INFO 5720 --- [taller] [main] c.comunet.taller.SpringbootApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-09-10T08:51:13.403-05:00  INFO 5720 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-10T08:51:13.491-05:00  INFO 5720 --- [taller] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 4 JPA repository interfaces.
+2026-09-10T08:51:14.169-05:00  INFO 5720 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-10T08:51:14.196-05:00  INFO 5720 --- [taller] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-10T08:51:14.197-05:00  INFO 5720 --- [taller] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-10T08:51:14.281-05:00  INFO 5720 --- [taller] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1810 ms
+2026-09-10T08:51:14.507-05:00  INFO 5720 --- [taller] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-10T08:51:14.627-05:00  INFO 5720 --- [taller] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-09-10T08:51:15.287-05:00  INFO 5720 --- [taller] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-10T08:51:15.341-05:00  INFO 5720 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-10T08:51:15.639-05:00  INFO 5720 --- [taller] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:sistema-academico user=USER
+2026-09-10T08:51:15.643-05:00  INFO 5720 --- [taller] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-10T08:51:15.678-05:00  WARN 5720 --- [taller] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-10T08:51:15.712-05:00  INFO 5720 --- [taller] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:sistema-academico]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SISTEMA-ACADEMICO/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-10T08:51:17.231-05:00  INFO 5720 --- [taller] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-10T08:51:17.350-05:00  INFO 5720 --- [taller] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-10T08:51:17.458-05:00  INFO 5720 --- [taller] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-10T08:51:17.660-05:00  WARN 5720 --- [taller] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-10T08:51:18.027-05:00  INFO 5720 --- [taller] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sistema-academico'
+2026-09-10T08:51:18.119-05:00  INFO 5720 --- [taller] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/springboot-api'
+2026-09-10T08:51:18.128-05:00  INFO 5720 --- [taller] [main] c.comunet.taller.SpringbootApplication   : Started SpringbootApplication in 6.558 seconds (process running for 7.278)
